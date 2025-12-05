@@ -34,7 +34,6 @@ public class Main {
         System.out.println("✓ Buku berhasil ditambahkan: " + books.get(4).getBookId() + " - \"" + books.get(4).getTitle() + "\" by " + books.get(4).getAuthor());
         System.out.println("✓ Buku berhasil ditambahkan: " + books.get(5).getBookId() + " - \"" + books.get(5).getTitle() + "\" by " + books.get(5).getAuthor() + "\n");
 
-        // Create transactions
         List<Transaction> transactions = new ArrayList<>();
         transactions.add(new Transaction(members.get(0), books.get(1), "01-12-2025", 14)); // TRX001
         transactions.add(new Transaction(members.get(1), books.get(0), "05-12-2025", 14)); // TRX002
